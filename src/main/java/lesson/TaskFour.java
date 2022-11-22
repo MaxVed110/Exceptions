@@ -20,7 +20,7 @@ public class TaskFour {
             System.out.println("Введите число");
             String number = in.nextLine();
             System.out.println(number);
-            if(number.isEmpty()){
+            if (number.isEmpty()) {
                 throw new RuntimeException("Пустые строки вводить нельзя");
             }
             result = Float.parseFloat(number);
